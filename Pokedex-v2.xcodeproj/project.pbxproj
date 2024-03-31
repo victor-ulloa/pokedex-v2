@@ -13,6 +13,7 @@
 		57C17D1B2BBA0B0A00CD916D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C17D192BBA0B0A00CD916D /* Main.storyboard */; };
 		57C17D1D2BBA0B0B00CD916D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C17D1C2BBA0B0B00CD916D /* Assets.xcassets */; };
 		57C17D202BBA0B0B00CD916D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C17D1E2BBA0B0B00CD916D /* LaunchScreen.storyboard */; };
+		57C17D282BBA0F5800CD916D /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 57C17D272BBA0F5800CD916D /* Models */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		57C17D1C2BBA0B0B00CD916D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C17D1F2BBA0B0B00CD916D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C17D212BBA0B0B00CD916D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C17D272BBA0F5800CD916D /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		57C17D2A2BBA0F6D00CD916D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		57C17D2B2BBA0F6D00CD916D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,19 @@
 				57C17D1C2BBA0B0B00CD916D /* Assets.xcassets */,
 				57C17D1E2BBA0B0B00CD916D /* LaunchScreen.storyboard */,
 				57C17D212BBA0B0B00CD916D /* Info.plist */,
+				57C17D272BBA0F5800CD916D /* Models */,
+				57C17D292BBA0F6D00CD916D /* Networking */,
 			);
 			path = "Pokedex-v2";
+			sourceTree = "<group>";
+		};
+		57C17D292BBA0F6D00CD916D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				57C17D2A2BBA0F6D00CD916D /* NetworkManager.swift */,
+				57C17D2B2BBA0F6D00CD916D /* MainView.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 			files = (
 				57C17D202BBA0B0B00CD916D /* LaunchScreen.storyboard in Resources */,
 				57C17D1D2BBA0B0B00CD916D /* Assets.xcassets in Resources */,
+				57C17D282BBA0F5800CD916D /* Models in Resources */,
 				57C17D1B2BBA0B0A00CD916D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
