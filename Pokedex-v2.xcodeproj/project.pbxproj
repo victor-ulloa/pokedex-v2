@@ -15,6 +15,7 @@
 		57C17D2C2BBA1E4100CD916D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C17D2A2BBA0F6D00CD916D /* NetworkManager.swift */; };
 		57C17D2F2BBA1E8300CD916D /* PokemonListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C17D2E2BBA1E8300CD916D /* PokemonListResponse.swift */; };
 		57C17D322BBA240400CD916D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C17D302BBA240400CD916D /* Main.storyboard */; };
+		57C17D362BBA303300CD916D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C17D352BBA303300CD916D /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		57C17D2A2BBA0F6D00CD916D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		57C17D2E2BBA1E8300CD916D /* PokemonListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListResponse.swift; sourceTree = "<group>"; };
 		57C17D312BBA240400CD916D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C17D352BBA303300CD916D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,10 @@
 				57C17D212BBA0B0B00CD916D /* Info.plist */,
 				57C17D132BBA0B0A00CD916D /* AppDelegate.swift */,
 				57C17D152BBA0B0A00CD916D /* SceneDelegate.swift */,
-				57C17D172BBA0B0A00CD916D /* SearchViewController.swift */,
 				57C17D1C2BBA0B0B00CD916D /* Assets.xcassets */,
-				57C17D302BBA240400CD916D /* Main.storyboard */,
+				57C17D332BBA29F300CD916D /* App */,
 				57C17D1E2BBA0B0B00CD916D /* LaunchScreen.storyboard */,
+				57C17D302BBA240400CD916D /* Main.storyboard */,
 				57C17D2D2BBA1E7200CD916D /* Models */,
 				57C17D292BBA0F6D00CD916D /* Networking */,
 			);
@@ -87,6 +89,23 @@
 				57C17D2E2BBA1E8300CD916D /* PokemonListResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		57C17D332BBA29F300CD916D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				57C17D342BBA29FA00CD916D /* Search */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		57C17D342BBA29FA00CD916D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				57C17D172BBA0B0A00CD916D /* SearchViewController.swift */,
+				57C17D352BBA303300CD916D /* SearchViewModel.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C17D362BBA303300CD916D /* SearchViewModel.swift in Sources */,
 				57C17D2C2BBA1E4100CD916D /* NetworkManager.swift in Sources */,
 				57C17D182BBA0B0A00CD916D /* SearchViewController.swift in Sources */,
 				57C17D2F2BBA1E8300CD916D /* PokemonListResponse.swift in Sources */,

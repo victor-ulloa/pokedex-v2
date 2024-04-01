@@ -34,7 +34,6 @@ struct NetworkManager: NetworkManagerProtocol {
         let queryItems = [
             URLQueryItem(name: "limit", value: "\(limit)"),
             URLQueryItem(name: "offset", value: "\(offset)")
-            
         ]
         
         guard let url = buildUrl(path: .pokemons, queryItems: queryItems) else {
